@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="Chat IM"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/loginpanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User name" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="dstAddress" />
+
+        <EditText
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter group name" />
+
+
+        <TextView
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chatpanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/showUsers"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Show Group" />
+
+        <Button
+            android:id="@+id/disconnect"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Quit Group" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_margin="15dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/chatmsg"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:scrollbars = "vertical">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/say"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.9"
+                android:layout_gravity="left"
+                android:hint="Say something" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_weight="0.1"
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:text="Send" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

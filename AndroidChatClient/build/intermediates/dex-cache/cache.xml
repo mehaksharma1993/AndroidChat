@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\atish\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\Android\AndroidChatClient\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_77be62d0e4c8b2265eaeee159948e6573fc9ba97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidChatClient\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\Android\AndroidChatClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_701e3eabd5f012616177f90fa0e37e33b1dd8782.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidChatClient\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="D:\Android\AndroidChatClient\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_d367454c3f1af505a742eecc15725b44050851cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidChatClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\Android\AndroidChatClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_4eed421b8c16cb13fb7f2c3e283705810ae380eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidChatClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\Android\AndroidChatClient\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_2a801278969e4abab258e29244eafe188611aa6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidChatClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\Android\AndroidChatClient\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_b03655bb1380502770f53b09616fb481b0323a8e.jar" />
+    </item>
+
+</items>
